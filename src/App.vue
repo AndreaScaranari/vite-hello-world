@@ -1,6 +1,14 @@
-<script setup>
+<script>
 import AppTitle from "./components/AppTitle.vue"
 import AppHero from "./components/AppHero.vue"
+
+export default {
+  name: "Hello-Vite!",
+  components: {
+    AppHero,
+    AppTitle,
+  }
+}
 
 </script>
 
